@@ -55,7 +55,7 @@ let s:grey_ui = '#6d6d6d'
 let s:red = '#ff6767'
 let s:green = '#61ffca'
 let s:violet = '#a277ff'
-let s:yellow = '#ffca85'
+let s:orange = '#ffca85'
 let s:blue = '#6cb2c7'
 let s:cyan = '#82e2ff'
 let s:pink = '#f694ff'
@@ -94,15 +94,15 @@ call s:GuiFor('PreProc', 'NONE', s:violet)
 call s:GuiFor('StorageClass', 'NONE', s:violet)
 
 " --------------------------------------------------
-" Constants, operators, yellow
+" Constants, operators, orange
 " --------------------------------------------------
-call s:GuiFor('Conditional', 'NONE', s:yellow)
-call s:GuiFor('Exception', 'NONE', s:yellow)
-call s:GuiFor('Include', 'NONE', s:yellow)
-call s:GuiFor('Define', 'NONE', s:yellow)
-call s:GuiFor('Macro', 'NONE', s:yellow)
-call s:GuiFor('Operator', 'NONE', s:yellow)
-call s:GuiFor('PreCondit', 'NONE', s:yellow)
+call s:GuiFor('Conditional', 'NONE', s:orange)
+call s:GuiFor('Exception', 'NONE', s:orange)
+call s:GuiFor('Include', 'NONE', s:orange)
+call s:GuiFor('Define', 'NONE', s:orange)
+call s:GuiFor('Macro', 'NONE', s:orange)
+call s:GuiFor('Operator', 'NONE', s:orange)
+call s:GuiFor('PreCondit', 'NONE', s:orange)
 
 
 " --------------------------------------------------
@@ -119,7 +119,7 @@ call s:GuiFor('Todo', 'NONE', s:green)
 
 call s:GuiFor('GitGutterChange', 'NONE', s:green)
 
-call s:GuiFor('MatchParen', s:yellow, s:background)
+call s:GuiFor('MatchParen', s:orange, s:background)
 
 
 " --------------------------------------------------
@@ -171,7 +171,7 @@ call s:GuiFor('VertSplit', s:grey, s:background)
 call s:GuiFor('Pmenu', s:grey, s:foreground)
 call s:GuiFor('PmenuSbar', s:grey)
 call s:GuiFor('PmenuSel', 'NONE', s:white)
-call s:GuiFor('PmenuThumb', s:light_grey, s:yellow)
+call s:GuiFor('PmenuThumb', s:light_grey, s:orange)
 
 call s:GuiFor('WildMenu', s:cyan, s:background)
 
@@ -200,13 +200,13 @@ call s:GuiFor('shQuote', 'NONE', s:green)
 " CSS
 " --------------------------------------------------
 
-call s:GuiFor('cssClassName', 'NONE', s:yellow)
-call s:GuiFor('cssClassNameDot', 'NONE', s:yellow)
-call s:GuiFor('cssColor', 'NONE', s:yellow)
+call s:GuiFor('cssClassName', 'NONE', s:orange)
+call s:GuiFor('cssClassNameDot', 'NONE', s:orange)
+call s:GuiFor('cssColor', 'NONE', s:orange)
 call s:GuiFor('cssBorderProp', 'NONE', s:blue)
 call s:GuiFor('cssBoxProp', 'NONE', s:blue)
-call s:GuiFor('cssBackgroundProp', 'NONE', s:yellow)
-call s:GuiFor('cssPseudoClassId', 'NONE', s:yellow)
+call s:GuiFor('cssBackgroundProp', 'NONE', s:orange)
+call s:GuiFor('cssPseudoClassId', 'NONE', s:orange)
 call s:GuiFor('cssBraces', 'NONE', s:foreground)
 call s:GuiFor('cssFlexibleBoxProp', 'NONE', s:blue)
 call s:GuiFor('cssFontProp', 'NONE', s:blue)
@@ -228,19 +228,19 @@ call s:GuiFor('cssStringQQ', 'NONE', s:green)
 " HTML
 " --------------------------------------------------
 
-call s:GuiFor('htmlArg', 'NONE', s:yellow)
+call s:GuiFor('htmlArg', 'NONE', s:orange)
 call s:GuiFor('htmlString', 'NONE', s:green)
 call s:GuiFor('htmlTagName', 'NONE', s:cyan)
 call s:GuiFor('htmlTag', 'NONE', s:foreground)
 call s:GuiFor('htmlTagEndTag', 'NONE', s:foreground)
-call s:GuiFor('htmlEvent', 'NONE', s:yellow)
+call s:GuiFor('htmlEvent', 'NONE', s:orange)
 
 
 " --------------------------------------------------
 " C
 " --------------------------------------------------
 
-call s:GuiFor('cStatement', 'NONE', s:yellow)
+call s:GuiFor('cStatement', 'NONE', s:orange)
 
 
 " --------------------------------------------------
@@ -291,7 +291,7 @@ elseif exists('*term_setansicolors')
     \ s:green,
     \ s:violet,
     \ s:blue,
-    \ s:yellow,
+    \ s:orange,
     \ s:magenta,
     \ s:cyan,
     \ s:white,
@@ -300,7 +300,7 @@ elseif exists('*term_setansicolors')
     \ s:green,
     \ s:violet,
     \ s:cyan,
-    \ s:yellow,
+    \ s:orange,
     \ s:magenta,
     \ s:blue,
     \ s:white,
