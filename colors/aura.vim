@@ -56,9 +56,9 @@ let s:red = '#ff6767'
 let s:green = '#61ffca'
 let s:violet = '#a277ff'
 let s:yellow = '#ffca85'
-let s:blue = '#477ab3'
-let s:cyan = '#6096bf'
-let s:purple = s:violet
+let s:blue = '#6cb2c7'
+let s:cyan = '#82e2ff'
+let s:pink = '#f694ff'
 let s:magenta = s:violet
 let s:light_grey = s:grey_ui
 let s:grey = '#3d3d3d'
@@ -71,18 +71,18 @@ call s:GuiFor('Normal','None', s:foreground)
 
 
 " --------------------------------------------------
-" Keywords, constants, template literals, purple
+" Keywords, constants, template literals, pink
 " --------------------------------------------------
-call s:GuiFor('Constant', 'NONE', s:purple)
-call s:GuiFor('Keyword', 'NONE', s:purple)
-call s:GuiFor('Number', 'NONE', s:purple)
-call s:GuiFor('Repeat', 'NONE', s:purple)
-call s:GuiFor('Special', 'NONE', s:purple)
-call s:GuiFor('SpecialKey', 'NONE', s:purple)
-call s:GuiFor('Statement', 'NONE', s:purple)
-call s:GuiFor('Tag', 'NONE', s:purple)
+call s:GuiFor('Constant', 'NONE', s:pink)
+call s:GuiFor('Keyword', 'NONE', s:pink)
+call s:GuiFor('Number', 'NONE', s:pink)
+call s:GuiFor('Repeat', 'NONE', s:pink)
+call s:GuiFor('Special', 'NONE', s:pink)
+call s:GuiFor('SpecialKey', 'NONE', s:pink)
+call s:GuiFor('Statement', 'NONE', s:pink)
+call s:GuiFor('Tag', 'NONE', s:pink)
 call s:GuiFor('Type', 'NONE', s:violet, 'NONE')
-call s:GuiFor('Typedef', 'NONE', s:purple)
+call s:GuiFor('Typedef', 'NONE', s:pink)
 
 
 " --------------------------------------------------
@@ -182,7 +182,7 @@ call s:GuiFor('TabLineSel', s:background, s:foreground, 'NONE')
 call s:GuiFor('Folded', s:black, s:foreground)
 call s:GuiFor('FoldColumn', 'NONE', s:foreground)
 
-call s:GuiFor('GitGutterAdd', 'NONE', s:purple)
+call s:GuiFor('GitGutterAdd', 'NONE', s:pink)
 
 call s:GuiFor('IncSearch', s:grey, 'NONE')
 call s:GuiFor('Search', s:grey, 'NONE')
@@ -217,9 +217,9 @@ call s:GuiFor('cssPositioningProp', 'NONE', s:blue)
 call s:GuiFor('cssTagName', 'NONE', s:blue)
 call s:GuiFor('cssTextProp', 'NONE', s:blue)
 call s:GuiFor('cssUIProp', 'NONE', s:blue)
-call s:GuiFor('cssAttr', 'NONE', s:purple)
-call s:GuiFor('cssIncludeKeyword ', 'NONE', s:purple)
-call s:GuiFor('cssUnitDecorators', 'NONE', s:purple)
+call s:GuiFor('cssAttr', 'NONE', s:pink)
+call s:GuiFor('cssIncludeKeyword ', 'NONE', s:pink)
+call s:GuiFor('cssUnitDecorators', 'NONE', s:pink)
 call s:GuiFor('cssStringQ', 'NONE', s:green)
 call s:GuiFor('cssStringQQ', 'NONE', s:green)
 
@@ -253,7 +253,7 @@ call s:GuiFor('mkdCodeDelimiter', 'NONE', s:cyan)
 call s:GuiFor('mkdCodeStart', 'NONE', s:cyan)
 call s:GuiFor('mkdCodeEnd', 'NONE', s:cyan)
 call s:GuiFor('mkdLink', 'NONE', s:violet)
-call s:GuiFor('mkdURL', 'NONE', s:purple)
+call s:GuiFor('mkdURL', 'NONE', s:pink)
 call s:GuiFor('markdownLinkText', 'NONE', s:violet)
 
 " ==================================================
