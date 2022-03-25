@@ -22,7 +22,7 @@ if exists('syntax_on')
   syntax reset
 endif
 
-let g:colors_name = 'wryan'
+let g:colors_name = 'aura'
 set background=dark
 set cursorline
 
@@ -59,7 +59,7 @@ let s:orange = '#ffca85'
 let s:blue = '#6cb2c7'
 let s:cyan = '#82e2ff'
 let s:pink = '#f694ff'
-let s:magenta = s:violet
+let s:magenta = s:pink
 let s:light_grey = s:grey_ui
 let s:grey = '#3d3d3d'
 let s:dark_grey = s:black
