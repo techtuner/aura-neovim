@@ -63,9 +63,9 @@ function! airline#themes#aura#refresh()
  
     " commandline
     let g:airline#themes#aura#palette.commandline = airline#themes#generate_color_map(
-                \ [ "#15141b", "#ff6767", 120, 120 ],
+                \ [ "#15141b", "#f694ff", 120, 120 ],
                 \ [ "#edecee", "#3d3d3d", 254, 240 ],
-                \ [ "#ff6767", "#15141b", 120, 236 ]
+                \ [ "#f694ff", "#15141b", 120, 236 ]
                 \ ) 
 
     " accents
