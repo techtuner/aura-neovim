@@ -200,13 +200,13 @@ call s:GuiFor('shQuote', 'NONE', s:green)
 " CSS
 " --------------------------------------------------
 
-call s:GuiFor('cssClassName', 'NONE', s:orange)
-call s:GuiFor('cssClassNameDot', 'NONE', s:orange)
+call s:GuiFor('cssClassName', 'NONE', s:white)
+call s:GuiFor('cssClassNameDot', 'NONE', s:white)
 call s:GuiFor('cssColor', 'NONE', s:orange)
 call s:GuiFor('cssBorderProp', 'NONE', s:blue)
 call s:GuiFor('cssBoxProp', 'NONE', s:blue)
-call s:GuiFor('cssBackgroundProp', 'NONE', s:orange)
-call s:GuiFor('cssPseudoClassId', 'NONE', s:orange)
+call s:GuiFor('cssBackgroundProp', 'NONE', s:white)
+call s:GuiFor('cssPseudoClassId', 'NONE', s:white)
 call s:GuiFor('cssBraces', 'NONE', s:foreground)
 call s:GuiFor('cssFlexibleBoxProp', 'NONE', s:blue)
 call s:GuiFor('cssFontProp', 'NONE', s:blue)
