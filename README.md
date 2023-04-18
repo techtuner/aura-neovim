@@ -54,10 +54,3 @@ You have to set `set termguicolors` in the `init.vim` file for the colors to ren
 <br>
 
 [Aura-neovim](https://www.github.com/techtuner/aura-neovim) is licensed under [MIT](./LICENSE)
-
-<br>
-
-## Other neovim Theme
-<br>
-
-[Wryan Theme](https://www.github.com/techtuner/wryan-neovim)
